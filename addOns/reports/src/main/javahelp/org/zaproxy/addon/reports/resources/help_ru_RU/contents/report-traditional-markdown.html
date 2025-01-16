@@ -17,7 +17,7 @@
 	, would indicate a High risk issue identified with Medium confidence.
 	<pre>
 
-# ZAP by Checkmarx Scanning Report
+# BLU ZAP Penetration Testing Scanning Report
 
 ## Summary of Alerts
 
@@ -61,14 +61,14 @@
 
 ### Description
 
-A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. Суть атаки заключается в том, что CSRF использует доверие веб-сайта к пользователю.  Напротив, межсайтовый скриптинг (XSS) использует доверие пользователя к веб-сайту.  Как и XSS, CSRF-атаки не обязательно являются межсайтовыми, но могут быть таковыми.  Подделка межсайтовых запросов также известна как CSRF, XSRF, атака в один клик, сессионная езда, запутанный заместитель и морской прибой. 
+A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. Суть атаки заключается в том, что CSRF использует доверие веб-сайта к пользователю.  Напротив, межсайтовый скриптинг (XSS) использует доверие пользователя к веб-сайту.  Как и XSS, CSRF-атаки не обязательно являются межсайтовыми, но могут быть таковыми.  Подделка межсайтовых запросов также известна как CSRF, XSRF, атака в один клик, сессионная езда, запутанный заместитель и морской прибой.
 
 Атаки CSRF эффективны в ряде ситуаций, в том числе:
-     * Жертва имеет активный сеанс на целевом сайте. 
-    * Жертва аутентифицируется через HTTP-аутентификацию на целевом сайте. 
-    * Жертва находится в той же локальной сети, что и целевой сайт. 
+     * Жертва имеет активный сеанс на целевом сайте.
+    * Жертва аутентифицируется через HTTP-аутентификацию на целевом сайте.
+    * Жертва находится в той же локальной сети, что и целевой сайт.
 
-CSRF в основном использовался для выполнения действий против целевого сайта с использованием привилегий жертвы, но недавно были обнаружены методы раскрытия информации путем получения доступа к ответу.  Риск раскрытия информации резко возрастает, когда целевой сайт уязвим для XSS, потому что XSS может использоваться как платформа для CSRF, позволяя атаке действовать в рамках политики того же происхождения. 
+CSRF в основном использовался для выполнения действий против целевого сайта с использованием привилегий жертвы, но недавно были обнаружены методы раскрытия информации путем получения доступа к ответу.  Риск раскрытия информации резко возрастает, когда целевой сайт уязвим для XSS, потому что XSS может использоваться как платформа для CSRF, позволяя атаке действовать в рамках политики того же происхождения.
 
 * URL: http://localhost:8080/bodgeit/advanced.jsp
   * Method: `GET`
